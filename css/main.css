@@ -1,0 +1,362 @@
+@font-face {
+    font-family: republika;
+    src: url(fonts/republika.ttf) format ('truetype');
+}
+@font-face {
+    font-family: gothic;
+    src: url(fonts/gothic.ttf) format ('truetype');
+}
+/*PREKOPIRANO*/
+#content {
+    /* FIX: Make internet explorer wrap correctly */
+    width: auto !important;
+    text-align: center;
+}
+
+#container {
+    background-color: white;
+    border: 0px solid black;
+    color: white;
+}
+
+.style1 {
+    height: 29px;
+    text-align: left;
+}
+
+a visited {
+
+}
+td {
+    padding: 4px;
+    min-width: 90px;
+}
+.vrstica {
+    padding-top: 20px;
+    padding-left: 60px;
+    /*background-color: #397289;*/
+    height: 90px;
+    display: inline-block;
+    font-family: republika;
+}
+
+.span-a {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.span-b {
+    display: inline-block;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    color: #397289;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    font-family: republika;
+
+}
+#myDIV {
+  display: none;
+  width: 80%;
+}
+
+#myDIV p {
+  font-family: republika;
+}
+
+.span-c {
+    display: block;
+    position: absolute;
+    left: 60px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    float: left;
+    font-family: republika;
+}
+
+.span-d {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 55px;
+    font-size: 20px;
+    float: left;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: republika;
+}
+
+/* Privzeto */
+.gumb1 {
+    border-radius: 25px;
+    border: solid 1px;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+.gumb3 {
+    background-color: #f5f5dc;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumb4 {
+    background-color: white;
+    border: solid 1px;
+    color: #00008b;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumb5 {
+    background-color: #00ff00;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumb6 {
+    background-color: #ffe800;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumb7 {
+    background-color: #00008b;
+    border: solid 1px;
+    color: #ffe800;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumb8 {
+    background-color: black;
+    border: solid 1px;
+    color: #00f0ff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumb9 {
+    background-color: #ffe800;
+    border: solid 1px;
+    color: #00008b;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+  }
+
+.gumb10 {
+    background-color: #d600d6;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumbDostopnost {
+    background-color: #397289;
+    border: solid 1px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    vertical-align: middle;
+    font-family: republika;
+}
+
+.gumbDostopnost img {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+.gumbPisava0 {
+    background-color: #FFFFFF;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    font-family: helvetica;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumbPisava1 {
+    background-color: #FFFFFF;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    font-family: Arial;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumbPisava2 {
+    background-color: #FFFFFF;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: Arial;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumbPisava3 {
+    background-color: #FFFFFF;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    font-family: Verdana;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+
+.gumbPisava4 {
+    background-color: #FFFFFF;
+    border: solid 1px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: gothic;
+    margin-bottom: 10px;
+    font-family: republika;
+}
+#PanelMK {
+  font-family: republika;
+}
+#tbxIme {
+  font-size:16pt;
+  font-weight:700;
+}
+#tbxopis {
+  font-weight: 700;
+}
+#tbxavtor {
+  font-weight: 700;
+}
+
+#tbxZbirka {
+  font-weight: 700;
+}
+
+#tbxInstitucija {
+  font-weight: 700;
+
+}
+#tbxDediscina {
+  font-weight:700;
+
+}
+#tbxesd {
+  font-weight: 700;
+}
+
+#tbxIDGlobalni {
+  font-weight: 700;
+}
+
+#tbxIDLokalni {
+  font-weight: 700;
+}
