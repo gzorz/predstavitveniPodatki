@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1">
+    <meta charset="UTF-8" />
+    <title>
+      Predstavitveni podatki RKD
+    </title>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="vrstica">
+        <span class="span-a">
+            <a href="https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-kulturo/" target="_blank"><img id ="logo_bel" src="slike/RS_gov_si-logo.png"/></a>
+        </span>
+    </div>
+    <div class = "span-b">
+        <span id ="vrstica">
+          <a href="https://www.gov.si/teme/register-kulturne-dediscine/" target="_blank"><img id ="logo_bel" src="slike/napis_RKD_cgp.png"/></a>
+        </span>
+    </div>
+    <div>
+        <span class="span-c">
+          <button class="gumbDostopnost" onclick="PrikaziDostop()">DOSTOPNOST<img src = "slike/dostopnost.png"></button>
+        </span>
+    </div>
+    <div id="myDIV">
+            <span class="span-d">
+            <p id="dost-nasl">Barvna shema</p>
+            <button type="button" id="gumb_1" class="gumb1" onclick="changeOzadje1();">privzeto</button>
+            <button type="button" id="gumb3" class="gumb3" onclick="changeOzadje3();">črna na bež</button>
+            <button type="button" id="gumb4" class="gumb4" onclick="changeOzadje4();">modro na belem</button>
+            <button type="button" id="gumb5" class="gumb5" onclick="changeOzadje5();">črno na zelenem</button>
+            <button type="button" id="gumb6" class="gumb6" onclick="changeOzadje6();">črno na rumenem</button>
+            <button type="button" id="gumb" class="gumb7" onclick="changeOzadje7();">rumeno na modrem</button>
+            <button type="button" id="gumb" class="gumb8" onclick="changeOzadje8();">turkizno na črnem</button>
+            <button type="button" id="gumb" class="gumb9" onclick="changeOzadje9();">modro na rumenem</button>
+            <button type="button" id="gumb" class="gumb10" onclick="changeOzadje10();">črno na vijolčnem</button>
+            <p id="dost-nasl1">Tip pisave</p>
+            <button type="button" id="gumb" class="gumbPisava0" onclick="changePisavo0()">privzeto</button>
+            <button type="button" id="gumb" class="gumbPisava1" onclick="changePisavo1()">Arial</button>
+            <button type="button" id="gumb" class="gumbPisava2" onclick="changePisavo2()">Arial krepko</button>
+            <button type="button" id="gumb" class="gumbPisava3" onclick="changePisavo3()">Verdana</button>
+            <button type="button" id="gumb" class="gumbPisava4" onclick="changePisavo4()">Gothic</button>
+            </span>
+    </div>
+
+    <div id="dig">
+        <table width="800" style="border-left-width: 0px; width: 100%; padding-top:50px;" frame="lhs">
+        </table>
+        <tr>
+            <td style="height: 229px; text-align: center" align="center" valign="top">
+                <div style="text-align:center;">
+                  <span id="PanelMK">
+                    <table align="center" style="width:600px" cellpadding="0" cellspacing="0">
+                        <tr style="font-size: 13pt">
+                            <td class="style1" style="border-bottom: #e5f5f5 1px solid;text-align: center" valign="bottom">
+                                <a id="tbxIDLokalno" href="p00001-001-s.jpg" target="_blank"><img id="Image" src="p00001-001-b.jpg" alt ="Sopotnica - Cerkev sv. Florijana, akvarel" style="max-height: 450px;max-width: 600px;" /></a>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td style="text-align: left" valign="top" align="center">
+                                <table id = "tabela" class="stilt" style="width: 100%">
+                                    <tr>
+                                        <td colspan="2" valign="top">
+                                            <span id="tbxtip">slika</span>
+                                            <br />
+                                            <span id="tbxIme">Sopotnica - Cerkev sv. Florijana, akvarel </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" valign="top">
+                                            &nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            Opis:</td>
+                                        <td>
+                                            <span id="tbxopis">zunanjščina cerkve</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            Avtor:
+                                        </td>
+                                        <td>
+                                            <span id="tbxavtor">Franjo Golob (1934)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Zbirka:</td>
+                                        <td>
+                                            <span id="tbxZbirka">Planoteka</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            Vir:</td>
+                                        <td>
+                                            <span id="tbxInstitucija">Ministrstvo za kulturo Republike Slovenije, INDOK center</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            Dediščina:</td>
+                                        <td>
+                                            <span id="tbxDediscina">Sopotnica - Cerkev sv. Florijana</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            EŠD:</td>
+                                        <td>
+                                            <span id="tbxesd">2525</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            Globalni ID:</td>
+                                        <td>
+                                            <span id="tbxIDGlobalni">SI_INDOK_PL_p00001-001</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            Lokalni ID:</td>
+                                        <td>
+                                            <span id="tbxIDLokalni">SI_INDOK_PL_p00001-001</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            Europeana:</td>
+                                        <td>
+                                            <b><span id = "Europeana"><a href=''></a></span></b>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        </table>
+        <br />
+        <input type="hidden" name="location" id="location" />
+      </span>
+    </div>
+</body>
+
+</html>
